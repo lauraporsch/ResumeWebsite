@@ -1,0 +1,154 @@
+body{
+  color:#434242;
+  font-family: "Merriweather", serif;
+  font-size: 2em;
+  margin: 0;
+  text-align: center;
+}
+
+a{
+  color: #54BAB9;
+  font-family: "Montserrat", cursive;
+  font-size: 0.75em;
+  margin: 10px 25px;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+h1 {
+  color: #22A39F;
+  font-family: "Sacramento", cursive;
+  font-size: 5.62rem;
+  margin: 50px auto 0 auto;
+
+}
+
+h2 {
+  color: #54BAB9;
+  font-family: "Montserrat", cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #54BAB9;
+  font-family: "Montserrat", cursive;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  line-height: 0.5;
+}
+
+hr{
+  border-style: none;
+  border-top: dotted;
+  border-color: #F7ECDE;
+  border-width: 10px;
+  width: 5%;
+  margin:70px auto 70px auto;
+}
+
+.analytics-icon{
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+
+.bottom-cloud{
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.bottom-container{
+  background-color: #E9DAC1;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.btn {
+  background: #9ED2C6;
+  background-image: -webkit-linear-gradient(top, #9ED2C6, #54BAB9);
+  background-image: -moz-linear-gradient(top, #9ED2C6, #54BAB9);
+  background-image: -ms-linear-gradient(top, #9ED2C6, #54BAB9);
+  background-image: -o-linear-gradient(top, #9ED2C6, #54BAB9);
+  background-image: linear-gradient(to bottom, #9ED2C6, #54BAB9);
+  -webkit-border-radius: 19;
+  -moz-border-radius: 19;
+  border-radius: 19px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 0 auto 0 auto;
+
+}
+
+.btn:hover {
+  background: #54BAB9;
+  text-decoration: none;
+}
+
+.credit{
+  color: #B2B2B2;
+  font-size: 0.6em;
+}
+
+.contact-me{
+  margin-bottom: 150px;
+}
+
+.description{
+  font-size: 1.3rem;
+  margin: 0 auto 0 auto;
+  width: 40%;
+}
+
+
+.paragraph-contact{
+  font-size: 1.3rem;
+  margin: 0 auto 0 auto;
+  width: 30%;
+}
+
+.profile-picture{
+  border-radius: 50%;
+  width: 12%;
+}
+
+.programming-icon{
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.skill-row{
+  margin: 50px auto  50px auto;
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+}
+
+.small-text{
+  font-size: 0.5em;
+  text-align: justify;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.top-container{
+  background-color: #F7ECDE;
+  position: relative;
+  padding-top: 100px;
+}
