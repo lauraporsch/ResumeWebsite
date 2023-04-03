@@ -1,5 +1,5 @@
 body{
-  color:#434242;
+  color:#005F7E;
   font-family: "Merriweather", serif;
   font-size: 2em;
   margin: 0;
@@ -7,7 +7,7 @@ body{
 }
 
 a{
-  color: #54BAB9;
+  color: #93BFCF;
   font-family: "Montserrat", cursive;
   font-size: 0.75em;
   margin: 10px 25px;
@@ -20,7 +20,7 @@ a:hover{
 
 
 h1 {
-  color: #22A39F;
+  color: #6096B4;
   font-family: "Sacramento", cursive;
   font-size: 5.62rem;
   margin: 50px auto 0 auto;
@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-  color: #54BAB9;
+  color: #93BFCF;
   font-family: "Montserrat", cursive;
   font-size: 2.5rem;
   font-weight: normal;
@@ -37,7 +37,7 @@ h2 {
 }
 
 h3 {
-  color: #54BAB9;
+  color: #93BFCF;
   font-family: "Montserrat", cursive;
   font-weight: lighter;
   font-size: 1.5rem;
@@ -47,7 +47,7 @@ h3 {
 hr{
   border-style: none;
   border-top: dotted;
-  border-color: #F7ECDE;
+  border-color: #EEE9DA;
   border-width: 10px;
   width: 5%;
   margin:70px auto 70px auto;
@@ -67,18 +67,18 @@ hr{
 }
 
 .bottom-container{
-  background-color: #E9DAC1;
+  background-color: #EEE9DA;
   padding-top: 50px;
   padding-bottom: 20px;
 }
 
 .btn {
-  background: #9ED2C6;
-  background-image: -webkit-linear-gradient(top, #9ED2C6, #54BAB9);
-  background-image: -moz-linear-gradient(top, #9ED2C6, #54BAB9);
-  background-image: -ms-linear-gradient(top, #9ED2C6, #54BAB9);
-  background-image: -o-linear-gradient(top, #9ED2C6, #54BAB9);
-  background-image: linear-gradient(to bottom, #9ED2C6, #54BAB9);
+  background: #6096B4;
+  background-image: -webkit-linear-gradient(top, #6096B4, #BDCDD6);
+  background-image: -moz-linear-gradient(top, #6096B4, #BDCDD6);
+  background-image: -ms-linear-gradient(top, #6096B4, #BDCDD6);
+  background-image: -o-linear-gradient(top, #6096B4, #BDCDD6);
+  background-image: linear-gradient(to bottom, #6096B4, #BDCDD6);
   -webkit-border-radius: 19;
   -moz-border-radius: 19;
   border-radius: 19px;
@@ -92,7 +92,7 @@ hr{
 }
 
 .btn:hover {
-  background: #54BAB9;
+  background: #93BFCF;
   text-decoration: none;
 }
 
@@ -148,7 +148,25 @@ hr{
 }
 
 .top-container{
-  background-color: #F7ECDE;
+  background-color: #EEE9DA;
   position: relative;
-  padding-top: 100px;
+  padding-top: 20px;
+}
+
+.topnav{
+  background-color: #EEE9DA;
+  padding-bottom: 50px
+}
+
+.topnav a{
+  color: #93BFCF;
+  text-align: center
+}
+
+.topnav a.active{
+  color: #6096B4
+}
+
+#aboutme{
+  margin: 100px auto
 }
