@@ -44,6 +44,14 @@ h3 {
   line-height: 0.5;
 }
 
+h4 {
+  color: #93BFCF;
+  font-family: "Montserrat", cursive;
+  font-weight: lighter;
+  font-size: 1.0rem;
+  line-height: 0.5;
+}
+
 hr{
   border-style: none;
   border-top: dotted;
@@ -137,8 +145,13 @@ hr{
 }
 
 .small-text{
-  font-size: 0.5em;
-  text-align: justify;
+  font-size: 0.5em
+}
+
+.interpersonal-icon{
+  float: right;
+  margin-right: 30px;
+  width: 25%;
 }
 
 .top-cloud{
@@ -165,6 +178,12 @@ hr{
 
 .topnav a.active{
   color: #6096B4
+}
+
+.yoga-icon{
+  float: left;
+  margin-right: 30px;
+  width: 25%;
 }
 
 #aboutme{
