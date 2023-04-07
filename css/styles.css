@@ -24,14 +24,13 @@ h1 {
   font-family: "Sacramento", cursive;
   font-size: 5.62rem;
   margin: 50px auto 0 auto;
-
 }
 
 h2 {
   color: #93BFCF;
   font-family: "Montserrat", cursive;
-  font-size: 2.5rem;
-  font-weight: normal;
+  font-size: 1.5rem;
+  font-weight: 100;
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -52,34 +51,108 @@ h4 {
   line-height: 0.5;
 }
 
-hr{
+/* hr{
   border-style: none;
   border-top: dotted;
   border-color: #EEE9DA;
   border-width: 10px;
   width: 5%;
   margin:70px auto 70px auto;
+} */
+
+p{
+  font-size: 1.3rem;
+  margin: 0 auto 0 auto;
+  text-align: justify;
+  width: 60%;
 }
 
-.analytics-icon{
+/* top section */
+.greeting{
+  margin: 0 auto  50px auto;
+  position: relative;
+  text-align: left;
+  width: 100%
+}
+.mountain-img{
+  display: inline-block;
+  float: left;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 20px;
+}
+.tiny-text{
+  font-size: 0.5em
+}
+.top-cloud{
   float: right;
-  margin-left: 30px;
-  width: 25%;
+  margin-right: 100px;
+  width: 10%
+}
+.top-container{
+  background-color: #EEE9DA;
+  padding-top: 20px;
+  padding-bottom: 110px;
+}
+.topnav{
+  background-color: #EEE9DA;
+  padding-bottom: 50px
+}
+.topnav a{
+  color: #93BFCF;
+  text-align: center
+}
+.topnav a.active{
+  color: #6096B4
 }
 
-
-.bottom-cloud{
-  position: absolute;
-  left: 400px;
-  bottom: 300px;
-}
-
+/* bottom section */
 .bottom-container{
   background-color: #EEE9DA;
   padding-top: 50px;
   padding-bottom: 20px;
 }
+.credit{
+  color: #B2B2B2;
+  font-size: 0.6em;
+  text-align: right;
+  margin-right: 25px;
+}
+.footer-link{
+  margin-left: 100px;
+}
 
+/* about me section */
+.profile-picture{
+  border-radius: 50%;
+  float: left;
+  margin-bottom: 110px;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 12%;
+}
+#aboutme{
+  width: 100%
+}
+#aboutme a{
+  color:#005F7E;
+  font-family: "Merriweather", serif;
+  font-size: 1.3rem;
+  margin: 0;
+  text-decoration: underline;
+}
+
+/* middle section */
+.divider-cloud{
+  width: 8%;
+  margin-right: 500px;
+  padding-top: 50px
+}
+.middle-container{
+  text-align: left;
+}
+
+/* contact section */
 .btn {
   background: #6096B4;
   background-image: -webkit-linear-gradient(top, #6096B4, #BDCDD6);
@@ -96,96 +169,50 @@ hr{
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   margin: 0 auto 0 auto;
-
 }
-
 .btn:hover {
   background: #93BFCF;
   text-decoration: none;
 }
-
-.credit{
-  color: #B2B2B2;
-  font-size: 0.6em;
+#contact{
+  margin-bottom: 100px;
+  padding-left: 380px;
+}
+#contact h3{
+  margin-left: 10px;
+}
+#contact p{
+  margin-left: 10px;
+  width: 50%;
 }
 
-.contact-me{
-  margin-bottom: 150px;
+/* skills */
+.analytics-icon{
+  float: right;
+  margin-left: 30px;
+  width: 25%;
 }
-
-.description{
-  font-size: 1.3rem;
-  margin: 0 auto 0 auto;
-  width: 40%;
+.interpersonal-icon{
+  float: right;
+  margin-right: 30px;
+  width: 25%;
 }
-
-
-.paragraph-contact{
-  font-size: 1.3rem;
-  margin: 0 auto 0 auto;
-  width: 30%;
-}
-
-.profile-picture{
-  border-radius: 50%;
-  width: 12%;
-}
-
 .programming-icon{
   float: left;
   margin-right: 30px;
   width: 25%;
 }
-
 .skill-row{
   margin: 50px auto  50px auto;
   line-height: 2;
   text-align: left;
   width: 50%;
 }
-
 .small-text{
   font-size: 0.5em
 }
-
-.interpersonal-icon{
-  float: right;
-  margin-right: 30px;
-  width: 25%;
-}
-
-.top-cloud{
-  position: absolute;
-  right: 400px;
-  top: 50px;
-}
-
-.top-container{
-  background-color: #EEE9DA;
-  position: relative;
-  padding-top: 20px;
-}
-
-.topnav{
-  background-color: #EEE9DA;
-  padding-bottom: 50px
-}
-
-.topnav a{
-  color: #93BFCF;
-  text-align: center
-}
-
-.topnav a.active{
-  color: #6096B4
-}
-
 .yoga-icon{
   float: left;
   margin-right: 30px;
   width: 25%;
-}
-
-#aboutme{
-  margin: 100px auto
 }
