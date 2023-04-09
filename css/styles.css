@@ -8,7 +8,7 @@ body{
 
 a{
   color: #93BFCF;
-  font-family: "Montserrat", cursive;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.75em;
   margin: 10px 25px;
   text-decoration: none;
@@ -28,15 +28,16 @@ h1 {
 
 h2 {
   color: #6096B4;
-  font-family: "Montserrat", cursive;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   margin-top: 0;
+  margin-bottom:0;
 }
 
 h3 {
   color: #93BFCF;
-  font-family: "Montserrat", cursive;
+  font-family: "Montserrat", sans-serif;
   font-weight: lighter;
   font-size: 1.5rem;
   line-height: 0.5;
@@ -44,7 +45,7 @@ h3 {
 
 h4 {
   color: #93BFCF;
-  font-family: "Montserrat", cursive;
+  font-family: "Montserrat", sans-serif;
   font-weight: lighter;
   font-size: 1.0rem;
   line-height: 0.5;
@@ -66,8 +67,17 @@ p{
   width: 60%;
 }
 
+ul{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 
 /* top section */
+.image-container{
+  position: relative;
+  text-align: center;
+}
 .greeting{
   margin: 0 auto  50px auto;
   position: relative;
@@ -87,12 +97,14 @@ p{
 .top-cloud{
   float: right;
   margin-right: 100px;
+  position: relative;
+  bottom: 100px;
   width: 10%
 }
 .top-container{
   background-color: #EEE9DA;
   padding-top: 20px;
-  padding-bottom: 110px;
+  padding-bottom: 60px;
 }
 .topnav{
   background-color: #EEE9DA;
@@ -121,6 +133,33 @@ p{
 .footer-link{
   margin-left: 100px;
 }
+.attribution{
+  color: #BDCDD6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.6rem;
+}
+.attribution-divider-cloud{
+  position: relative;
+  right: 680px;
+  bottom: 20px;
+}
+
+.attribution-mountain{
+  position: absolute;
+  left: 110px;
+  top: 390px;
+}
+.attribution-top-cloud{
+  position: relative;
+  bottom: 10px;
+  left: 720px;
+}
+.attribution-top-cloud-index{
+  position: relative;
+  left: 750px;
+  top: 5px;
+}
+
 
 /* about me section */
 .profile-picture{
@@ -150,6 +189,7 @@ p{
 }
 .middle-container{
   text-align: left;
+  margin-top: 50px;
 }
 
 /* contact section */
@@ -187,7 +227,30 @@ p{
 }
 
 /* skills */
-
+.attribution-icon-code{
+  position: relative;
+  right: 320px;
+  bottom: 25px;
+}
+.attribution-icon-data{
+  position: relative;
+  left: 530px;
+  bottom: 115px;
+}
+.attribution-icon-interpersonal{
+  position: relative;
+  left: 530px;
+  bottom: 145px;
+}
+.attribution-icon-yoga{
+  position: relative;
+  bottom: 45px;
+  right: 25px;
+}
+.heading-right{
+  position: relative;
+  right: 40px;
+}
 .skill-icon-right{
   float: right;
   margin-bottom: 10px;
@@ -196,12 +259,11 @@ p{
 }
 .skill-icon-left{
   float: left;
-  margin-bottom: 10px;
   margin-right: 100px;
   width: 25%;
 }
 .skill-row{
-  margin: 50px auto  50px auto;
+  margin: 0px auto  0px auto;
   line-height: 2;
   width: 50%;
 }
