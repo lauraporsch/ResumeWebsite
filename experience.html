@@ -2,122 +2,185 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Laura Porsch</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
+    <title>Laura Porsch - Experience</title>
+    <!-- import Bootstrap Framework for CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- import Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- link to CSS stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- add favicon to browser tab -->
+    <link rel="icon" href="favicon.ico">
+    <!-- import bootstrap framwork for JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
   </head>
 
   <body>
+    <section class="top-container container-fluid">
 
-    <div class="top-container">
-      <div class="topnav">
-        <a href="index.html">Home</a>
-        <a href="index.html#aboutme">About Me</a>
-        <a href="skills.html">Skills</a>
-        <a href="education.html">Education</a>
-        <a class="active" href="experience.html">Experience</a>
-        <a href="index.html#contact">Contact</a>
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+          <ul class="navbar-nav">
+              <li class="navbar-item">
+                  <a href="index.html">Home</a>
+              </li>
+              <li class="navbar-item">
+                  <a href="index.html#aboutme">About Me</a>
+              </li>
+              <li class="navbar-item">
+                  <a href="skills.html">Skills</a>
+              </li>
+              <li class="navbar-item">
+                  <a href="education.html">Education</a>
+              </li>
+              <li class="navbar-item">
+                  <a class="active" href="experience.html">Experience</a>
+              </li>
+              <li class="navbar-item">
+                  <a href="index.html#contact">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+        <!-- Heading -->
+        <div class=" row heading">
+          <div class="col-lg-9">
+            <h1>My Work Experience</h1>
+          </div>
+          <div class="col-lg-3 col-md-5 col-sm-5 col-xs-5">
+            <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+            <br>
+            <span class="attribution-top-cloud">
+                <a href="https://www.flaticon.com/free-icons/cloud" title="cloud icons" class="attribution">Cloud icons created by Good Ware - Flaticon</a>
+            </span>
+          </div>
+        </div>
       </div>
-      <div class="heading">
-        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-        <span class="attribution-top-cloud">
-            <a href="https://www.flaticon.com/free-icons/cloud" title="cloud icons" class="attribution">Cloud icons created by Good Ware - Flaticon</a>
-        </span>
-        <h1>My Work Experience</h1>
+    </section>
+
+    <div class="middle-container container-fluid">
+      <div class="resume-row row">
+        <div class="col-lg-12">
+          <h3>Feb 2023 - ongoing</h3>
+          <h2>Lead Expo</h2>
+          <h4>Chucks Steakhouse Banff, AB, Canada</h4>
+          <hr>
+        </div>
+
+        <div class="col-lg-12">
+          <h3>May 2018 - ongoing</h3>
+          <h2>Yogateacher</h2>
+          <h4>Multiple opportunities like lululemon Banff, Sally Borden Fitness and Recreation and Banff Yoga Practice</h4>
+          <hr>
+        </div>
+
+        <div class="col-lg-12">
+          <h3>Sep 2021 - Jan 2023</h3>
+          <h2>Manager</h2>
+          <h4>Boston Pizza Banff, AB, Canada</h4>
+          <hr>
+        </div>
+
+        <div class="col-lg-12">
+          <h3>Dec 2020 - June 2021</h3>
+          <h2>Copy Writer</h2>
+          <h4>self employed, SEO-Keyword based content creation for different clients</h4>
+          <hr>
+        </div>
+
+        <div class="col-lg-12">
+          <h3>Sep 2019 - Sep 2020</h3>
+          <h2>Manager</h2>
+          <h4>Boston Pizza Banff, AB, Canada</h4>
+          <hr>
+        </div>
+
+        <div class="col-lg-12">
+          <h3>Mar 2019 - June 2019</h3>
+          <h2>Bartender</h2>
+          <h4>Cable Beach Resort Broome, WA, Australia</h4>
+          <hr>
+        </div>
+
+        <div class="col-lg-12">
+          <h3>Dec 2018 - Feb 2019</h3>
+          <h2>Supervisor / Functions Coordinator</h2>
+          <h4>On the Bay Restaurant Port Arthur, TAS, Australia</h4>
+          <hr>
+        </div>
+
+        <div class="col-lg-12">
+          <h3>Nov 2017 - Nov 2018</h3>
+          <h2>Career Break / Traveling</h2>
+          <h4>Vietnam, Thailand, Indonesia, Nepal, India, Malaysia, Sri Lanka, Myanmar, Fiji</h4>
+          <hr>
+        </div>
+
+        <div class="col-lg-12">
+          <h3>Nov 2016 - Oct 2017</h3>
+          <h2>Data Analyst / Multiplatform Content Analyst</h2>
+          <h4>Viacom International Media Networks (now: Paramount International Networks), Berlin, Germany</h4>
+          <hr>
+        </div>
+
+        <div class="col-lg-12">
+          <h3>June 2014 - Oct 2016</h3>
+          <h2>Commercial Planner</h2>
+          <h4>Visoon Video Impact, Berlin, Germany</h4>
+          <hr>
+        </div>
+
+        <div class="col-lg-12">
+          <h3>Jan 2012 - June 2012</h3>
+          <h2>Student Assistant / Content Analyst</h2>
+          <h4>Viacom International Media Networks (now: Paramount International Networks), Berlin, Germany</h4>
+          <hr>
+        </div>
+
+        <div class="col-lg-12">
+          <h3>Jan 2011 - July 2011</h3>
+          <h2>Intern / Business Sales Division</h2>
+          <h4>Vodafone Kabel Deutschland, Berlin, Germany</h4>
+          <hr>
+        </div>
+
+        <div class="col-lg-12">
+          <h3>Jun 2010 - Nov 2010</h3>
+          <h2>Intern / Quantitative Market Research</h2>
+          <h4>Icon Added Value (now: Katar Added Value), Nuremberg, Germany</h4>
+          <hr>
+        </div>
+      </div>
     </div>
-    </div>
 
-    <div class="middle-container">
-
-      <div class="resume-row">
-        <h3>Feb 2023 - ongoing</h3>
-        <h2>Lead Expo</h2>
-        <h4>Chucks Steakhouse Banff, AB, Canada</h4>
+    <!-- Footer -->
+    <footer class="bottom-container row m-0 navbar">
+      <div class="col-lg-12">
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/lauraporsch/">LinkedIn</a>
+          </li>
+          <li>
+            <a href="https://github.com/lauretta-on-the-code">GitHub Portfolio</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/explaura.yoga/">ExpLaura Yoga</a>
+          </li>
+        </ul>
       </div>
-
-      <div class="resume-row">
-        <h3>May 2018 - ongoing</h3>
-        <h2>Yogateacher</h2>
-        <h4>Multiple opportunities like lululemon Banff, Sally Borden Fitness and Recreation and Banff Yoga Practice</h4>
+      <div class="col-lg-12 pr-0">
+        <br>
+        <p class="credit">© 2023 Laura Porsch</p>
       </div>
-
-      <div class="resume-row">
-        <h3>Sep 2021 - Jan 2023</h3>
-        <h2>Manager</h2>
-        <h4>Boston Pizza Banff, AB, Canada</h4>
-      </div>
-
-      <div class="resume-row">
-        <h3>Dec 2020 - June 2021</h3>
-        <h2>Copy Writer</h2>
-        <h4>self employed, SEO-Keyword based content creation for different clients</h4>
-      </div>
-
-      <div class="resume-row">
-        <h3>Sep 2019 - Sep 2020</h3>
-        <h2>Manager</h2>
-        <h4>Boston Pizza Banff, AB, Canada</h4>
-      </div>
-
-      <div class="resume-row">
-        <h3>Mar 2019 - June 2019</h3>
-        <h2>Bartender</h2>
-        <h4>Cable Beach Resort Broome, WA, Australia</h4>
-      </div>
-
-      <div class="resume-row">
-        <h3>Dec 2018 - Feb 2019</h3>
-        <h2>Supervisor / Functions Coordinator</h2>
-        <h4>On the Bay Restaurant Port Arthur, TAS, Australia</h4>
-      </div>
-
-      <div class="resume-row">
-        <h3>Nov 2017 - Nov 2018</h3>
-        <h2>Career Break / Traveling</h2>
-        <h4>Vietnam, Thailand, Indonesia, Nepal, India, Malaysia, Sri Lanka, Myanmar, Fiji</h4>
-      </div>
-
-      <div class="resume-row">
-        <h3>Nov 2016 - Oct 2017</h3>
-        <h2>Data Analyst / Multiplatform Content Analyst</h2>
-        <h4>Viacom International Media Networks (now: Paramount International Networks), Berlin, Germany</h4>
-      </div>
-
-      <div class="resume-row">
-        <h3>June 2014 - Oct 2016</h3>
-        <h2>Commercial Planner</h2>
-        <h4>Visoon Video Impact, Berlin, Germany</h4>
-      </div>
-
-      <div class="resume-row">
-        <h3>Jan 2012 - June 2012</h3>
-        <h2>Student Assistant / Content Analyst</h2>
-        <h4>Viacom International Media Networks (now: Paramount International Networks), Berlin, Germany</h4>
-      </div>
-
-      <div class="resume-row">
-        <h3>Jan 2011 - July 2011</h3>
-        <h2>Intern / Business Sales Division</h2>
-        <h4>Vodafone Kabel Deutschland, Berlin, Germany</h4>
-      </div>
-
-      <div class="resume-row">
-        <h3>Jun 2010 - Nov 2010</h3>
-        <h2>Intern / Quantitative Market Research</h2>
-        <h4>Icon Added Value (now: Katar Added Value), Nuremberg, Germany</h4>
-      </div>
-    </div>
-
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/lauraporsch/">LinkedIn</a>
-      <a class="footer-link" href="https://github.com/lauretta-on-the-code">GitHub Portfolio</a>
-      <a class="footer-link" href="https://www.instagram.com/explaura.yoga/">ExpLaura Yoga</a>
-      <br>
-      <br>
-      <p class="credit">© 2023 Laura Porsch</p>
-    </div>
+    </footer>
   </body>
 </html>

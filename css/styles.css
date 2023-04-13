@@ -10,7 +10,6 @@ a{
   color: #93BFCF;
   font-family: "Montserrat", sans-serif;
   font-size: 0.75em;
-  margin: 10px 25px;
   text-decoration: none;
 }
 
@@ -23,6 +22,7 @@ h1 {
   color: #6096B4;
   font-family: "Sacramento", cursive;
   font-size: 5.62rem;
+  font-weight: bold;
   margin: 50px auto 0 auto;
 }
 
@@ -40,7 +40,7 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
   font-size: 1.5rem;
-  line-height: 0.5;
+  /* line-height: 0.5; */
 }
 
 h4 {
@@ -51,20 +51,19 @@ h4 {
   line-height: 0.5;
 }
 
-/* hr{
+hr{
   border-style: none;
   border-top: dotted;
   border-color: #EEE9DA;
-  border-width: 10px;
-  width: 5%;
-  margin:70px auto 70px auto;
-} */
+  border-width: 5px;
+  width: 15%;
+  margin:15px auto 15px auto;
+}
 
 p{
   font-size: 1.3rem;
-  margin: 0 auto 0 auto;
   text-align: justify;
-  width: 60%;
+  width: 95%;
 }
 
 ul{
@@ -74,74 +73,10 @@ ul{
 
 
 /* top section */
-.image-container{
-  position: relative;
-  text-align: center;
-}
-.greeting{
-  margin: 0 auto  50px auto;
-  position: relative;
-  text-align: left;
-  width: 100%
-}
-.mountain-img{
-  display: inline-block;
-  float: left;
-  margin-bottom: 100px;
-  margin-right: 100px;
-  margin-left: 20px;
-}
-.tiny-text{
-  font-size: 0.5em
-}
-.top-cloud{
-  float: right;
-  margin-right: 100px;
-  position: relative;
-  bottom: 100px;
-  width: 10%
-}
-.top-container{
-  background-color: #EEE9DA;
-  padding-top: 20px;
-  padding-bottom: 60px;
-}
-.topnav{
-  background-color: #EEE9DA;
-  padding-bottom: 50px
-}
-.topnav a{
-  color: #93BFCF;
-  text-align: center
-}
-.topnav a.active{
-  color: #6096B4
-}
-
-/* bottom section */
-.bottom-container{
-  background-color: #EEE9DA;
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
-.credit{
-  color: #B2B2B2;
-  font-size: 0.6em;
-  text-align: right;
-  margin-right: 25px;
-}
-.footer-link{
-  margin-left: 100px;
-}
 .attribution{
   color: #BDCDD6;
   font-family: "Montserrat", sans-serif;
   font-size: 0.6rem;
-}
-.attribution-divider-cloud{
-  position: relative;
-  right: 680px;
-  bottom: 20px;
 }
 
 .attribution-mountain{
@@ -151,27 +86,74 @@ ul{
 }
 .attribution-top-cloud{
   position: relative;
-  bottom: 10px;
-  left: 720px;
+  bottom: 85px;
 }
 .attribution-top-cloud-index{
-  position: relative;
-  bottom: 10px;
-  left: 600px;
+  position: absolute;
+  top: 80px;
+  left: 10px;
+}
+.greeting{
+  text-align: left;
+}
+.greeting-mountain{
+  /* margin-top: 20px; */
+}
+.greeting-text{
+  line-height: 3;
+  padding-left: 0;
+  margin-top: 50px;
+}
+.heading h1{
+  padding-top: 50px;
+}
+.tiny-text{
+  font-size: 0.5em
+}
+.top-cloud{
+  width: 65%
+}
+.top-container{
+  background-color: #EEE9DA;
+  /* padding-top: 20px;
+  padding-bottom: 60px; */
+}
+
+/* Nav Bar */
+.navbar{
+  background-color: #EEE9DA;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+.navbar a{
+  color: #93BFCF;
+  margin: 10px 25px;
+}
+.navbar a.active{
+  color: #6096B4
+}
+
+/* bottom section */
+.bottom-container{
+  background-color: #EEE9DA;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.bottom-container li{
+  display: inline;
+}
+.credit{
+  color: #B2B2B2;
+  font-size: 0.6em;
+  text-align: right;
 }
 
 
 /* about me section */
 .profile-picture{
   border-radius: 50%;
-  float: left;
-  margin-bottom: 110px;
-  margin-left: 100px;
-  margin-right: 100px;
-  width: 12%;
-}
-#aboutme{
-  width: 100%
+  margin-top: 50px;
+  width: 50%;
 }
 #aboutme a{
   color:#005F7E;
@@ -182,10 +164,15 @@ ul{
 }
 
 /* middle section */
+.attribution-divider-cloud{
+  position: relative;
+  bottom: 55px;
+}
 .divider-cloud{
-  width: 8%;
-  margin-right: 500px;
-  padding-top: 50px
+  width: 35%;
+}
+.divider-container{
+  text-align: right;
 }
 .middle-container{
   text-align: left;
@@ -215,23 +202,14 @@ ul{
   text-decoration: none;
 }
 #contact{
-  margin-bottom: 100px;
-  padding-left: 380px;
-}
-#contact h3{
-  margin-left: 10px;
-}
-#contact p{
-  margin-left: 10px;
-  width: 50%;
+  margin-bottom: 50px;
 }
 
 /* skills */
-.attribution-icon-code{
-  position: relative;
-  right: 320px;
-  bottom: 25px;
+.attribution-skills{
+  padding-bottom: 20px;
 }
+
 .attribution-icon-data{
   position: relative;
   left: 530px;
@@ -251,6 +229,9 @@ ul{
   position: relative;
   right: 40px;
 }
+.icon-right{
+  text-align: right;
+}
 .skill-icon-right{
   float: right;
   margin-bottom: 10px;
@@ -260,7 +241,7 @@ ul{
 .skill-icon-left{
   float: left;
   margin-right: 100px;
-  width: 25%;
+  width: 30%;
 }
 .skill-row{
   margin: 0px auto  0px auto;
@@ -274,6 +255,8 @@ ul{
 /* education and experience */
 .resume-row{
   margin: 50px auto 50px auto;
-  line-height: 1;
   width: 70%;
+}
+.resume-row h2,h3,h4{
+  line-height: 1.5;
 }

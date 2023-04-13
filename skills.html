@@ -2,53 +2,90 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Laura Porsch</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
+    <title>Laura Porsch-Skills</title>
+    <!-- import Bootstrap Framework for CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- import Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- link to CSS stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- add favicon to browser tab -->
+    <link rel="icon" href="favicon.ico">
+    <!-- import bootstrap framwork for JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
   </head>
 
   <body>
+    <section class="top-container container-fluid">
+      <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
 
-    <div class="top-container">
-      <div class="topnav">
-        <a href="index.html">Home</a>
-        <a href="index.html#aboutme">About Me</a>
-        <a class="active" href="skills.html">Skills</a>
-        <a href="education.html">Education</a>
-        <a href="experience.html">Experience</a>
-        <a href="index.html#contact">Contact</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+            <ul class="navbar-nav">
+                <li class="navbar-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="index.html#aboutme">About Me</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="active" href="skills.html">Skills</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="education.html">Education</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="experience.html">Experience</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="index.html#contact">Contact</a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+      <!-- Heading -->
+      <div class=" row heading">
+        <div class="col-lg-9">
+          <h1>My Skills</h1>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-5 col-xs-5">
+          <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+          <br>
+          <span class="attribution-top-cloud">
+              <a href="https://www.flaticon.com/free-icons/cloud" title="cloud icons" class="attribution">Cloud icons created by Good Ware - Flaticon</a>
+          </span>
+        </div>
       </div>
-      <div class="heading">
-        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-        <span class="attribution-top-cloud">
-            <a href="https://www.flaticon.com/free-icons/cloud" title="cloud icons" class="attribution">Cloud icons created by Good Ware - Flaticon</a>
-        </span>
-        <h1>My Skills</h1>
-      </div>
-    </div>
+    </section>
 
-    <div class="middle-container">
 
-      <div class="skill-row">
-        <img class="skill-icon-left" src="images/web-programming.png" alt="icon programming">
-        <h2 class="heading-right">Programming</h2>
-        <ul class="small-text">
-          <li> Python </li>
-          <li> HTML </li>
-          <li> CSS </li>
-          <li> SQL </li>
-        </ul>
-        <span class="attribution-icon-code">
+    <section class="middle-container container-fluid">
+
+      <div class="skill-row row">
+        <div class="col-lg-12">
+          <img class="skill-icon-left" src="images/web-programming.png" alt="icon programming">
+          <h2 class="heading-right">Programming</h2>
+          <ul class="small-text">
+            <li> Python </li>
+            <li> HTML </li>
+            <li> CSS </li>
+            <li> SQL </li>
+          </ul>
+        </div>
+        <div class="col-lg-12 attribution-skills">
           <a href="https://www.flaticon.com/free-icons/code" title="code icons" class="attribution">Code icons created by Icongeek26 - Flaticon</a>
-        </span>
-      </div>
+        </div>
 
-      <div class="skill-row">
-        <img class="skill-icon-right" src="images/data-analytics.png" alt="icon data analytics">
-        <h2>Data Analytics and Visualisation</h2>
+        <div class="col-lg-12">
+          <img class="skill-icon-right" src="images/data-analytics.png" alt="icon data analytics">
+          <h2>Data Analytics and Visualisation</h2>
           <ul class="small-text">
             <li> Python (e.g. Pandas, NumPy, sklearn, Matplotlib, Plotly) </li>
             <li> Google Colaboratory</li>
@@ -58,29 +95,29 @@
             <li> AdvantEdge (TV performance analyses) </li>
             <li> TV Scope (the standard tool for analysing TV performance in Germany) </li>
           </ul>
-          <span class="attribution-icon-data">
-            <a href="https://www.flaticon.com/free-icons/big-data" title="big data icons" class="attribution">Big data icons created by xnimrodx - Flaticon</a>
-          </span>
-      </div>
+        </div>
+        <div class="col-lg-12 attribution-skills icon-right">
+            <a href="https://www.flaticon.com/free-icons/big-data" title="big data icons" class="attribution">Big data icons created by xnimrodx -Flaticon</a>
+        </div>
 
-      <div class="skill-row">
-        <img class="skill-icon-left" src="images/yoga.png" alt="icon yoga">
-        <h2 class="heading-right">Yogateacher</h2>
-        <ul class="small-text">
-          <li> Hatha </li>
-          <li> Vinyasa</li>
-          <li> Group Classes </li>
-          <li> Private Classes </li>
-          <li> Trauma-informed </li>
-        </ul>
-        <span class="attribution-icon-yoga">
+        <div class="col-lg-12">
+          <img class="skill-icon-left" src="images/yoga.png" alt="icon yoga">
+          <h2 class="heading-right">Yogateacher</h2>
+          <ul class="small-text">
+            <li> Hatha </li>
+            <li> Vinyasa</li>
+            <li> Group Classes </li>
+            <li> Private Classes </li>
+            <li> Trauma-informed </li>
+          </ul>
+        </div>
+        <div class="col-lg-12 attribution-skills">
           <a href="https://www.flaticon.com/free-icons/exercise" title="exercise icons" class="attribution">Exercise icons created by Vitaly Gorbachev - Flaticon</a>
-        </span>
-      </div>
+        </div>
 
-      <div class="skill-row">
-        <img class="skill-icon-right" src="images/interpersonal.png" alt="icon interpersonal">
-        <h2>Interpersonal and emotional Skills</h2>
+        <div class="col-lg-12">
+          <img class="skill-icon-right" src="images/interpersonal.png" alt="icon interpersonal">
+          <h2>Interpersonal and emotional Skills</h2>
           <ul class="small-text">
             <li> Communication </li>
             <li> Intercultural Skills</li>
@@ -91,20 +128,32 @@
             <li> Social and Professional Responsibility </li>
             <li> Curiosity </li>
           </ul>
-          <span class="attribution-icon-interpersonal">
-            <a href="https://www.flaticon.com/free-icons/sympathy" title="sympathy icons" class="attribution">Sympathy icons created by Freepik - Flaticon</a>
-          </span>
+        </div>
+        <div class="col-lg-12 attribution-skills icon-right">
+            <a href="https://www.flaticon.com/free-icons/sympathy" title="sympathy icons" class="attribution">Sympathy icons created by Freepik -Flaticon</a>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/lauraporsch/">LinkedIn</a>
-      <a class="footer-link" href="https://github.com/lauretta-on-the-code">GitHub Portfolio</a>
-      <a class="footer-link" href="https://www.instagram.com/explaura.yoga/">ExpLaura Yoga</a>
-      <br>
-      <br>
-      <p class="credit">© 2023 Laura Porsch</p>
-    </div>
-
+    <!-- Footer -->
+    <footer class="bottom-container row m-0 navbar">
+      <div class="col-lg-12">
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/lauraporsch/">LinkedIn</a>
+          </li>
+          <li>
+            <a href="https://github.com/lauretta-on-the-code">GitHub Portfolio</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/explaura.yoga/">ExpLaura Yoga</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-12 pr-0">
+        <br>
+        <p class="credit">© 2023 Laura Porsch</p>
+      </div>
+    </footer>
   </body>
 </html>

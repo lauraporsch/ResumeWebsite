@@ -2,68 +2,121 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Laura Porsch</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
+    <title>Laura Porsch - Education</title>
+    <!-- import Bootstrap Framework for CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- import Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- link to CSS stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- add favicon to browser tab -->
+    <link rel="icon" href="favicon.ico">
+    <!-- import bootstrap framwork for JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
   </head>
 
   <body>
+    <section class="top-container container-fluid">
 
-    <div class="top-container">
-      <div class="topnav">
-        <a href="index.html">Home</a>
-        <a href="index.html#aboutme">About Me</a>
-        <a href="skills.html">Skills</a>
-        <a class="active" href="education.html">Education</a>
-        <a href="experience.html">Experience</a>
-        <a href="index.html#contact">Contact</a>
-      </div>
-      <div class="heading">
-        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-        <span class="attribution-top-cloud">
-            <a href="https://www.flaticon.com/free-icons/cloud" title="cloud icons" class="attribution">Cloud icons created by Good Ware - Flaticon</a>
-        </span>
-        <h1>Education and Certificates</h1>
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+          <ul class="navbar-nav">
+              <li class="navbar-item">
+                  <a href="index.html">Home</a>
+              </li>
+              <li class="navbar-item">
+                  <a href="index.html#aboutme">About Me</a>
+              </li>
+              <li class="navbar-item">
+                  <a href="skills.html">Skills</a>
+              </li>
+              <li class="navbar-item">
+                  <a class="active"  href="education.html">Education</a>
+              </li>
+              <li class="navbar-item">
+                  <a href="experience.html">Experience</a>
+              </li>
+              <li class="navbar-item">
+                  <a href="index.html#contact">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+        <!-- Heading -->
+        <div class=" row heading">
+          <div class="col-lg-9">
+            <h1>Education and Certificates</h1>
+          </div>
+          <div class="col-lg-3 col-md-5 col-sm-5 col-xs-5">
+            <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+            <br>
+            <span class="attribution-top-cloud">
+                <a href="https://www.flaticon.com/free-icons/cloud" title="cloud icons" class="attribution">Cloud icons created by Good Ware - Flaticon</a>
+            </span>
+          </div>
+        </div>
+    </section>
+
+    <div class="middle-container container-fluid">
+      <div class="resume-row row">
+        <div class="col-lg-12">
+          <h3>2023</h3>
+          <h2>100 Days of Code: The Complete Python Pro Bootcamp for 2023</h2>
+          <h4> Self-paced Online-Bootcamp on Udemy, including certificate</h4>
+          <hr>
+        </div>
+
+        <div class="col-lg-12">
+          <h3>2018</h3>
+          <h2>200h Hatha and Vinyasa Yogateacher Training</h2>
+          <h4>Accredited by Yoga Alliance, in person training </h4>
+          <hr>
+        </div>
+
+        <div class="col-lg-12">
+          <h3>2011-2014</h3>
+          <h2>Master of Arts, Management and Consulting</h2>
+          <h4>Berlin University of Applied Sciences</h4>
+          <hr>
+        </div>
+
+        <div class="col-lg-12">
+          <h3>2007-2010</h3>
+          <h2>Bachelor of Science, Media Economics</h2>
+          <h4>University of Technology Ilmenau</h4>
+          <hr>
+        </div>
       </div>
     </div>
 
-    <div class="middle-container">
-
-      <div class="resume-row">
-        <h3>2023</h3>
-        <h2>100 Days of Code: The Complete Python Pro Bootcamp for 2023</h2>
-        <h4> Self-paced Online-Bootcamp on Udemy, including certificate</h4>
+    <!-- Footer -->
+    <footer class="bottom-container row m-0 navbar">
+      <div class="col-lg-12">
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/lauraporsch/">LinkedIn</a>
+          </li>
+          <li>
+            <a href="https://github.com/lauretta-on-the-code">GitHub Portfolio</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/explaura.yoga/">ExpLaura Yoga</a>
+          </li>
+        </ul>
       </div>
-
-      <div class="resume-row">
-        <h3>2018</h3>
-        <h2>200h Hatha and Vinyasa Yogateacher Training</h2>
-        <h4>Accredited by Yoga Alliance, in person training </h4>
+      <div class="col-lg-12 pr-0">
+        <br>
+        <p class="credit">© 2023 Laura Porsch</p>
       </div>
-
-      <div class="resume-row">
-        <h3>2011-2014</h3>
-        <h2>Master of Arts, Management and Consulting</h2>
-        <h4>Berlin University of Applied Sciences</h4>
-      </div>
-
-      <div class="resume-row">
-        <h3>2007-2010</h3>
-        <h2>Bachelor of Science, Media Economics</h2>
-        <h4>University of Technology Ilmenau</h4>
-      </div>
-    </div>
-
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/lauraporsch/">LinkedIn</a>
-      <a class="footer-link" href="https://github.com/lauretta-on-the-code">GitHub Portfolio</a>
-      <a class="footer-link" href="https://www.instagram.com/explaura.yoga/">ExpLaura Yoga</a>
-      <br>
-      <br>
-      <p class="credit">© 2023 Laura Porsch</p>
-    </div>
+    </footer>
   </body>
 </html>
