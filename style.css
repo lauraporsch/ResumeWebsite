@@ -1,0 +1,130 @@
+body {
+  color:#005F7E;
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #005F7E;
+}
+a:hover {
+  color:  #6096B4;
+}
+h1, h2{
+  color: #6096B4; 
+  font-family: "Sacramento", cursive;
+}
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3{
+  color: #6096B4;
+}
+hr{
+  background-color: white;
+  border-style: none;
+  border-top: dotted;
+  border-color: #EEE9DA;
+  border-width: 10px;
+  margin: 40px auto 40px auto;
+  margin-left: 25%;
+  opacity: 100;
+  width: 15%;
+}
+.full{
+  width: 65%;
+  margin-left:0;
+}
+p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.attribution{
+  color: #BDCDD6;
+  font-size: 0.6rem;
+  text-align: center;
+}
+.background {
+  background-color: #EEE9DA
+}
+.listing {
+  margin-left: 25%;
+}
+/* Nav Bar */
+.navbar {
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+.navbar a {
+    color: #93BFCF;
+    margin: 10px 25px;
+}
+.navbar a.active {
+    color: #6096B4;
+}
+.navbar a:hover {
+  color: #6096B4;
+  text-decoration: underline;
+}
+.navbar-nav {
+  margin-left: 25%;
+}
+.navbar-toggler {
+  background-color: #93BFCF;
+  margin-bottom: 15px;
+}
+/* Footer*/
+.credit {
+  font-size:1rem;
+}
+/* Heading */
+.heading p {
+  color: #93BFCF;
+  font-size: 1.5rem;
+  text-align: left;
+  width: 100%;
+}
+.heading-text {
+  text-align: center;
+}
+/* About Me */
+.profile-picture{
+  border-radius: 100%;
+}
+/* Contact Me */
+.btn {
+  background: #6096B4;
+  background-image: -webkit-linear-gradient(top, #6096B4, #BDCDD6);
+  background-image: -moz-linear-gradient(top, #6096B4, #BDCDD6);
+  background-image: -ms-linear-gradient(top, #6096B4, #BDCDD6);
+  background-image: -o-linear-gradient(top, #6096B4, #BDCDD6);
+  background-image: linear-gradient(to bottom, #6096B4, #BDCDD6);
+  -webkit-border-radius: 19;
+  -moz-border-radius: 19;
+  border-color: #6096B4;
+  border-radius: 19px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 0 auto 0 auto;
+}
+.btn:hover {
+  background: #EEE9DA;
+  border-color: #6096B4;
+  color: #6096B4;
+  text-decoration: none;
+}
+/* Skills */
+.skill-icon{
+  width: 60%;
+}
+/* Experience */
+.experience h3{
+  color: #005F7E;
+}
+.experience h4{
+  color: #6096B4;
+}
